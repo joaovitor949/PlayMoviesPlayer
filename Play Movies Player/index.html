@@ -12,7 +12,10 @@
 
     <style>
         *, *::before, *::after{margin: 0; padding: 0;}
-        .video-container{width: 500px;}
+        .video-container{
+		width: 853px;
+		height: 480;
+	    }
     </style>
 
 </head>
@@ -22,14 +25,14 @@
     <form class="video-container" action="" method="GET">
 
         
-        <video preload="none" poster="poster.jpg"  class="playmoviesplayer-video">
-            <source src="none" type="none">
+        <video preload="none" class="playmoviesplayer-video">
+            <source src="(Coloque aqui o URL do seu Vídeo!)" type="video/mp4">
         </video>
 
     </form>
     
 	         <!-- Inclusão playmoviesplayer -->
-                 <script src="playmoviesplayer.js" async></script>
+                 <script src="./js/playmoviesplayer.js" async></script>
 
 </body>
 
